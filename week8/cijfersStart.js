@@ -65,7 +65,7 @@ function Periode (opdrachten, cijfers) {
 
 // OPDRACHT 4.
 // Maak een periode variabele op basis van de bovenstaande functie
-let periode1 = new Periode(["Objecten", "Wordpress installeren", "SQL"], [6, 8, 3]);
+let periode1 = new Periode(opdrachten, cijfers);
 console.log(periode1);
 // OPDRACHT 5.
 // Schrijf de periode variabele naar een JSON variabele
