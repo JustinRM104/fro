@@ -52,9 +52,9 @@ let opdrachtBAP1 = new Opdracht("BAP", "SQL");
 let opdrachtBAP2 = new Opdracht("BAP", "For Each");
 let opdrachtBAP3 = new Opdracht("BAP", "Statements");
 
-let cijferFRO = new Cijfer("Objecten", 6);
-let cijferCMS = new Cijfer("Wordpress installeren", 8);
-let cijferBAP = new Cijfer("SQL", 5.5);
+let cijferFRO = new Cijfer(opdrachtFRO1, 6);
+let cijferCMS = new Cijfer(opdrachtCMS1, 8);
+let cijferBAP = new Cijfer(opdrachtBAP1, 5.5);
 
 function Periode (opdrachten, cijfers) {
     let periodeObj = this;
